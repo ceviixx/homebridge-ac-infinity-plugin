@@ -1,0 +1,25 @@
+{
+  "pluginAlias": "ACInfinityController",
+  "pluginType": "platform",
+  "singular": true,
+  "strictValidation": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "username": {
+        "title": "Email",
+        "type": "string",
+        "required": true,
+        "default": "",
+        "placeholder": "your@mail.com"
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "default": "",
+        "placeholder": "password"
+      }
+    }
+  }
+}
