@@ -12,16 +12,24 @@
 
 ## Installation
 ```bash
-npm install -g --unsafe-perm git+https://github.com/ceviixx/homebridge-ac-infinity-plugin.git
+1: cd /var/lib/homebridge/node_modules
+2: git clone https://github.com/ceviixx/homebridge-ac-infinity-plugin.git
+3: cd homebridge-ac-infinity-plugin/
+4: npm install
+5: npm run build
 ```
+
+```json
+{
+  "platform": "ACInfinityController",
+  "username": "",
+  "password": ""
+}
+```
+
 
 ## Setup
 Go to the plugin settings and enter you username and pasword from the app to login.\
 Devices will loaded auomatically after successfull login!
-
-## ToDos
-- [ ] Correct device type detection
-- [ ] Set value for lights
-- [ ] Set value for fans
 
 </span>
